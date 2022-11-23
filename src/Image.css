@@ -1,0 +1,24 @@
+Image{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.img_{
+    flex: 0 0 33%;
+    margin: 10px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    overflow: hidden;
+    border: 1px solid rgb(225, 225, 225);
+    box-shadow: 1px 1px 10px black ;
+}
+
+img{
+    width: 100%;
+}
